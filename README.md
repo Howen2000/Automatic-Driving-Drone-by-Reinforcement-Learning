@@ -1,4 +1,4 @@
-# Drone Flight Controller, Project 9 MLiS Part I
+# Drone Flight Controller, trying to use Reinforcement Learning technique to realize
 
 To get started you need to first setup python on your computer. The version of python used to develop this initial code is Python 3.6.12. The list of modules installed is given in requirements.txt. The only modules you need to run this code are `numpy` and `pygame`. You can also install `matplotlib` if you intend to plot any figures.
 
