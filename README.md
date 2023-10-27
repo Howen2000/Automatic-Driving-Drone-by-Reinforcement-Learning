@@ -1,5 +1,7 @@
 # Drone Flight Controller, trying to use Reinforcement Learning technique to realize
 
+At the begining of the work. We tried to use Q-learning to update the strategies of thrusts. But unfortunately we failed to import lively refresed data inside the Q-table in limited time. Therefore, we could only hit the target once in the first time. And the it would be fail to hit the rest target. We keep this version as a "lesson of failure". If you want to run the work correctly, you are supposed to use optimized "Monte Carlo" algorithm to replace the Q-learning and then compare it with the heuristic algorithm (Origin Standard) and see its performance. 
+
 To get started you need to first setup python on your computer. The version of python used to develop this initial code is Python 3.6.12. The list of modules installed is given in requirements.txt. The only modules you need to run this code are `numpy` and `pygame`. You can also install `matplotlib` if you intend to plot any figures.
 
 We recommend that the group doing this project using this repository as a template to create their own and invite all members. Collaboration via Git is the best way to let each member work on the code at the same time. Refer to the Git video on Moodle if you are not familiar with Git or GitHub.
